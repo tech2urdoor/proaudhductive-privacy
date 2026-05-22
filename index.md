@@ -91,11 +91,37 @@ If an AI response in the app feels wrong, harmful, or inaccurate, every assistan
 
 This is the channel for the App Store guideline 1.2 obligation to provide a way to report objectionable AI output.
 
-## 9. Changes to this policy
+<a id="data-deletion"></a>
+
+## 9. Deleting your data
+
+Because ProAuDHDuctive stores everything on your device and runs no server, "deleting your data" is something you do directly, without contacting us.
+
+**To delete specific items inside the app:**
+
+- **A task:** open the task → tap **Remove**. (Or long-press the task tile on the Today screen and confirm **Remove**.)
+- **A brain dump entry:** open Brain → tap the entry to expand → tap **Remove**.
+- **Your chat history with the assistant:** Settings → **Clear chat history**.
+- **A routine:** Settings → Manage routines → tap the routine → **Remove**.
+
+**To stop sending data to a cloud AI provider (without deleting it locally):**
+
+- Settings → AI assistant → switch the provider to **Local** (or any specific cloud surface off via the "Send to {provider}" toggles). The app will keep working on built-in templates and will not send anything else to that provider.
+- To delete the data already held by your AI provider, sign in to that provider's account (OpenAI, Anthropic, or Google) and use their own data-deletion controls — we have no access to their stored content.
+
+**To delete everything at once:**
+
+- Uninstall ProAuDHDuctive. All tasks, routines, brain dumps, chat history, and settings (including any API key you entered) are removed from your device. There is no cloud backup to restore from, and we keep no copy because we never had one.
+
+**What is retained after deletion:** nothing on our side, because we hold nothing. Inside the app, deletion is immediate and not recoverable. Data already sent to a cloud AI provider is governed by that provider's retention policy — see the links in §3.
+
+**Contact for deletion questions:** if any of the above does not work for you, email **tech2urdoor@gmail.com** and we will help.
+
+## 10. Changes to this policy
 
 If we change anything material — for example, adding a new AI provider, a new optional integration, or a new data category — we will update this page and bump the effective date at the top. Because the app stores no email address or account, there is no mailing-list notification. Re-checking this URL is the way to see updates.
 
-## 10. Contact
+## 11. Contact
 
 Questions, concerns, or reports go to:
 
