@@ -1,6 +1,6 @@
 # ProAuDHDuctive — Privacy Policy
 
-**Effective date:** 22 May 2026
+**Effective date:** 27 May 2026
 
 ProAuDHDuctive is a productivity app for AuDHD (autism + ADHD) brains. It is designed to be local-first: your tasks, routines, brain dumps, and chat history live on your device by default. This policy describes what that means in practice, and what changes if you choose to connect an external AI provider.
 
@@ -41,7 +41,9 @@ A model you run yourself on your own network or device (Ollama, llama.cpp, LM St
 
 ### Cloud providers (OpenAI, Anthropic, Gemini, OpenAI-compatible)
 
-If you choose a cloud provider and supply your own API key, the app sends data **directly from your device to that provider** using your key. The key never travels through any server we operate — we do not have any server. We do not see, log, or store any of the content that you send.
+When you select a cloud provider in Settings, the app shows a consent sheet listing exactly what each AI surface will send and to whom. **No data is sent to that provider until you accept the consent sheet for that specific provider.** Consent is granted per provider — switching to a different cloud provider re-prompts.
+
+Once you accept and supply your own API key, the app sends data **directly from your device to that provider** using your key. The key never travels through any server we operate — we do not have any server. We do not see, log, or store any of the content that you send.
 
 What is sent depends on which surface is in use:
 
