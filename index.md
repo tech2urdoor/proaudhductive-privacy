@@ -52,7 +52,7 @@ What is sent depends on which surface is in use:
 | Task suggestions | The partial title you typed, the titles of today's tasks, current time of day, and (if set) your selected energy level |
 | Task breakdown | The task title and any notes on the task |
 | Brain dump extraction | The raw brain dump text |
-| Chat assistant | Your chat history with the assistant, today's task titles + statuses + energy + start time, tomorrow's task titles + energy, and your most recent brain dumps (truncated, last 10 entries or last 7 days, whichever is smaller) |
+| Chat assistant | Your chat history with the assistant; today's task titles plus their done/now status, energy, and start time; your Later backlog (titles + energy); and your most recent brain dumps (up to 10 entries from the last 7 days, each truncated to the first 500 characters) |
 
 Each cloud surface has an **individual on/off toggle** in Settings under "Send to {provider}". Turning a surface off keeps it on the built-in templates and prevents the app from sending anything to your provider for that surface, even while other surfaces remain enabled.
 
