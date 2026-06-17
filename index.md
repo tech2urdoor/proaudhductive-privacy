@@ -20,7 +20,7 @@ The app stores the following on your iPhone or iPad, inside the app's own protec
 - Your routines and recurrence rules
 - Your brain dump entries (text, capture timestamp, source)
 - Your chat history with the in-app AI assistant
-- Your settings (theme, reduce-motion, notification time, AI provider configuration including any API key you enter)
+- Your settings (theme, reduce-motion, notification time, AI provider configuration). Any AI provider **API key** you enter is held in the device's secure keychain (iOS Keychain / Android Keystore), not in ordinary app storage.
 
 Uninstalling the app deletes all of this. There is no cloud backup; nothing syncs across devices.
 
